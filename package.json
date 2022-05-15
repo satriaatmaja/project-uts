@@ -1,0 +1,24 @@
+{
+  "name": "uts",
+  "description": "yaya's uts",
+  "private": true,
+  "browserslist": [
+    "> 2%"
+  ],
+  "devDependencies": {
+    "@parcel/transformer-postcss": "^2.5.0",
+    "@parcel/transformer-sass": "^2.5.0",
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.13",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-cli": "^9.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-scss": "^4.0.4",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "build": "parcel src/index.html",
+    "build:css": "postcss --config ./postcss.config"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "plugins": {
+    "postcss-advanced-variables": {},
+    "postcss-nested": {}
+  }
+}
